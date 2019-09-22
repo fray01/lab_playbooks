@@ -1,0 +1,6 @@
+---
+- name: "Installation mariadb"
+  hosts: mediadb
+  gather_facts: no
+  roles:
+    - role: "mariadb"

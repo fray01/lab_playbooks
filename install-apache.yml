@@ -1,0 +1,6 @@
+---
+- name: "Installation apache"
+  hosts: mediaweb
+  roles:
+    - role: "apache"
+      php_install: yes
